@@ -4,25 +4,121 @@
 body{
 	margin:0;
 	padding:0;
+	background: #DBD0D0;
 }
 .header{
+	padding-top: 10px;
 	color: white;
 	background: #FF0707;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 77px;
 }
 
-.head-up{
-	
+#logo{
+	/*background: #0617BA;*/
+	position: relative;
+	left: 150px;
 }
-.head-down{
-	background-color: #333340;
+.superior{
+	display: inline-block;
+}
+#enlaces{
+	position: relative;
+	/*background-color: #20C51C;*/
+	bottom: 20px;
+	left: 400px;	
 }
 
-.fa{
+/*ICONOS GENERAL*/
+.fa-lg{
 	border-radius: 50%;
-	padding: 10px;
+	padding: 5px;
 	color: #FF0707;
 	background: #fff;
 	width: 15px;
     height: 15px;
     text-align: center;
+}
+/*BUSQUEDA*/
+#busqueda{
+	/*background-color: #1CC5B3;*/
+	position: relative;
+	bottom: 20px;
+	left: 650px;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	padding: 0 5px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-left: 2px;
+}
+.fa-search{
+	background: none;
+	color: #fff;
+	transform: scaleX(-1); /*flip a un icono*/
+}
+
+/*BOTONES*/
+
+nav{
+	background-color: rgba(51, 46, 46,0.9);
+	margin left: 150px;
+}
+ul{
+	overflow: auto;
+	margin-left: 150px;
+
+}
+nav ul li{
+	margin:10px;
+	float: left;
+	list-style: none;
+}
+li>a{
+	font-size: 15px;
+}
+.fa-angle-down{
+	background: none;
+	color: #fff;
+	font-weight: bold;margin-right: 2px;
+	/*font-size: 1.4em !important;*/
+	display: none;
+}
+
+/*CONTENIDO*/
+#container{
+	background: #fff;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+article{
+	/*float: left;*/
+	background-color: #14BF58;
+}
+.box{
+	height: 100px;
+	width: 600px;
+	background-color: #4F4D4D;
+}
+.up{
+	background-color: #DE9D10;
+	padding: 13px;
+}
+.uno{
+	background-color: #646161;
+	display: inline-block;
+	
+}
+.dos{
+	background-color: #646161;
+	display: inline-block;
 }
